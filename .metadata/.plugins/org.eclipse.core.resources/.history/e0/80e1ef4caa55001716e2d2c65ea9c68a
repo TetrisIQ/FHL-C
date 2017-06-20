@@ -1,0 +1,14 @@
+/*
+ * anacae.h
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#ifndef ANACAE_H_
+#define ANACAE_H_
+
+class anacae {
+};
+
+#endif /* ANACAE_H_ */

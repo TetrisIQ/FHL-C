@@ -1,0 +1,17 @@
+/*
+ * Main.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "caesar.h"
+
+int main(void) {
+	char text[] = "FH Luebeck";
+	int offset = 2;
+
+	ceasar(text, offset);
+	printf("%s \n", string);
+
+}

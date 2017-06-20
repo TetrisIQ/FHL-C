@@ -1,0 +1,49 @@
+/*
+ * anacae.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "anacae.h"
+#include <string.h>
+
+//	101 || 69 ist e
+
+void anacae(char* text, int textSize) {
+findCharacterE(text, textSize);
+}
+
+char findCharacterE(char* text, int textSize) {
+	int ret = 0;
+	int i;
+	char e;
+	int a, b;
+		for (i =97; i<= 122;i++) {
+			a = charRate(text, i, textSize);
+			b = charRate(text, ++i, textSize);
+			if (a <= b) {
+				e = b;
+			}
+		}
+	i = 0;
+
+	char offset = 'E' - e;
+	caesar(text, offset);
+
+	return ret;
+
+}
+
+int charRate(char* text, char c, int textSize) {
+	int counter = 0;
+	int i;
+		for (i = 0; i <= textSize; i++) {
+			if (text[i] == c) {
+				counter++;
+			}
+		}
+	return counter;
+
+}
+

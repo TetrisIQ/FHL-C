@@ -1,0 +1,15 @@
+17:25:48 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+
+17:25:48 Build Finished (took 139ms)
+

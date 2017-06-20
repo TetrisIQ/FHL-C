@@ -1,0 +1,21 @@
+/*
+ * Main.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "caesar.h"
+#include <stdio.h>
+
+
+int main(void) {
+	char text[] = "abc";
+	int offset = 1;
+
+	caesar(text, offset);
+	printf("%s \n", text);
+
+
+
+}

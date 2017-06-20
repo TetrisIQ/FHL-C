@@ -1,0 +1,958 @@
+12:39:22 **** Build of configuration Debug for project ggt ****
+make all 
+Building file: ../ggt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ggt.d" -MT"ggt.o" -o "ggt.o" "../ggt.c"
+In file included from ../ggt.c:8:0:
+../ggt.h:11:1: Fehler: unbekannter Typname: »class«
+ class ggt {
+ ^~~~~
+../ggt.h:11:11: Fehler: expected »=«, »,«, »;«, »asm« or »__attribute__« before »{« token
+ class ggt {
+           ^
+../ggt.c:10:4: Fehler: expected »=«, »,«, »;«, »asm« or »__attribute__« before »:« token
+ ggt::ggt()
+    ^
+../ggt.c:16:4: Fehler: expected »=«, »,«, »;«, »asm« or »__attribute__« before »:« token
+ ggt::~ggt()
+    ^
+make: *** [subdir.mk:20: ggt.o] Fehler 1
+12:39:34 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+Building file: ../ggt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ggt.d" -MT"ggt.o" -o "ggt.o" "../ggt.c"
+Finished building: ../ggt.c
+ 
+Building target: ggt
+Invoking: GCC C Linker
+gcc  -o "ggt"  ./ggt.o   
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../lib/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: ggt] Fehler 1
+12:39:37 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+Building target: ggt
+Invoking: GCC C Linker
+gcc  -o "ggt"  ./ggt.o   
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../lib/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: ggt] Fehler 1
+12:39:52 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+Building target: ggt
+Invoking: GCC C Linker
+gcc  -o "ggt"  ./ggt.o   
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../lib/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: ggt] Fehler 1
+12:41:27 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+Building target: ggt
+Invoking: GCC C Linker
+gcc  -o "ggt"  ./ggt.o   
+/usr/lib/gcc/x86_64-pc-linux-gnu/7.1.1/../../../../lib/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: ggt] Fehler 1
+12:44:51 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+Building file: ../ggt.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ggt.d" -MT"ggt.o" -o "ggt.o" "../ggt.c"
+Finished building: ../ggt.c
+ 
+Building target: ggt
+Invoking: GCC C Linker
+gcc  -o "ggt"  ./ggt.o   
+Finished building target: ggt
+ 
+12:44:54 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+12:52:56 **** Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c:8:10: schwerwiegender Fehler: caesar/caesar.h: Datei oder Verzeichnis nicht gefunden
+ #include "caesar/caesar.h"
+          ^~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make: *** [subdir.mk:23: Main.o] Fehler 1
+12:53:09 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c:8:10: schwerwiegender Fehler: caesar/caesar.h: Datei oder Verzeichnis nicht gefunden
+ #include "caesar/caesar.h"
+          ^~~~~~~~~~~~~~~~~
+Kompilierung beendet.
+make: *** [subdir.mk:23: Main.o] Fehler 1
+12:53:13 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+12:54:26 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:11:2: Warnung: Implizite Deklaration der Funktion »printf« [-Wimplicit-function-declaration]
+  printf("FH Luebeck => %s" ,caesar("FH Luebeck", 3);
+  ^~~~~~
+../Main.c:11:2: Warnung: Unverträgliche implizite Deklaration der eingebauten Funktion »printf«
+../Main.c:11:2: Anmerkung: binden Sie »<stdio.h>« ein oder stellen Sie eine Deklaration von »printf« bereit
+../Main.c:11:52: Fehler: expected »)« before »;« token
+  printf("FH Luebeck => %s" ,caesar("FH Luebeck", 3);
+                                                    ^
+../Main.c:11:29: Fehler: falsche Verwendung eines void-Ausdruckes
+  printf("FH Luebeck => %s" ,caesar("FH Luebeck", 3);
+                             ^~~~~~
+../Main.c:15:1: Fehler: expected »;« before »}« token
+ }
+ ^
+make: *** [subdir.mk:23: Main.o] Fehler 1
+12:55:48 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:13:2: Warnung: Implizite Deklaration der Funktion »printf« [-Wimplicit-function-declaration]
+  printf("%c => %c", text, caesar(text, 'e'));
+  ^~~~~~
+../Main.c:13:2: Warnung: Unverträgliche implizite Deklaration der eingebauten Funktion »printf«
+../Main.c:13:2: Anmerkung: binden Sie »<stdio.h>« ein oder stellen Sie eine Deklaration von »printf« bereit
+../Main.c:13:27: Fehler: falsche Verwendung eines void-Ausdruckes
+  printf("%c => %c", text, caesar(text, 'e'));
+                           ^~~~~~
+make: *** [subdir.mk:23: Main.o] Fehler 1
+12:55:59 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:13:2: Warnung: Implizite Deklaration der Funktion »printf« [-Wimplicit-function-declaration]
+  printf("%c => %c", text, caesar(text, 2));
+  ^~~~~~
+../Main.c:13:2: Warnung: Unverträgliche implizite Deklaration der eingebauten Funktion »printf«
+../Main.c:13:2: Anmerkung: binden Sie »<stdio.h>« ein oder stellen Sie eine Deklaration von »printf« bereit
+../Main.c:13:27: Fehler: falsche Verwendung eines void-Ausdruckes
+  printf("%c => %c", text, caesar(text, 2));
+                           ^~~~~~
+make: *** [subdir.mk:23: Main.o] Fehler 1
+12:57:56 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:14:2: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+  ceasar(text, offset);
+  ^~~~~~
+  caesar
+../Main.c:15:2: Warnung: Implizite Deklaration der Funktion »printf« [-Wimplicit-function-declaration]
+  printf("%s \n", text);
+  ^~~~~~
+../Main.c:15:2: Warnung: Unverträgliche implizite Deklaration der eingebauten Funktion »printf«
+../Main.c:15:2: Anmerkung: binden Sie »<stdio.h>« ein oder stellen Sie eine Deklaration von »printf« bereit
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:14: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:00:56 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:14: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:00:56 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:14: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:01:18 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:14:2: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+  ceasar(text, offset);
+  ^~~~~~
+  caesar
+../Main.c:15:2: Warnung: Implizite Deklaration der Funktion »printf« [-Wimplicit-function-declaration]
+  printf("%s \n", text);
+  ^~~~~~
+../Main.c:15:2: Warnung: Unverträgliche implizite Deklaration der eingebauten Funktion »printf«
+../Main.c:15:2: Anmerkung: binden Sie »<stdio.h>« ein oder stellen Sie eine Deklaration von »printf« bereit
+Finished building: ../Main.c
+ 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:14: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:01:39 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:40:2: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+  ceasar(text, offset);
+  ^~~~~~
+  caesar
+../Main.c:41:2: Warnung: Implizite Deklaration der Funktion »printf« [-Wimplicit-function-declaration]
+  printf("%s \n", text);
+  ^~~~~~
+../Main.c:41:2: Warnung: Unverträgliche implizite Deklaration der eingebauten Funktion »printf«
+../Main.c:41:2: Anmerkung: binden Sie »<stdio.h>« ein oder stellen Sie eine Deklaration von »printf« bereit
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:11: first defined here
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:40: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:01:42 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:11: first defined here
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:40: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:01:43 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:11: first defined here
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:40: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:02:00 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:41:2: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+  ceasar(text, offset);
+  ^~~~~~
+  caesar
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:12: first defined here
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:41: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:02:32 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:12: first defined here
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:02:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:12: first defined here
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:02:39 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:12: first defined here
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:02:44 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:12: first defined here
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:02:52 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+./caesar.o: In function `caesar':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../caesar.c:11: multiple definition of `caesar'
+./Main.o:/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:12: first defined here
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+13:03:08 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:14:55 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+../caesar.c: In Funktion »caesar«:
+../caesar.c:16:22: Warnung: Klammern um »&&« innerhalb von »||« empfohlen [-Wparentheses]
+    if (text[i] >= 65 && text[i] <= 90
+        ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:15:25 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:15:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+13:15:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+13:16:09 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:16:24 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:16:43 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:16:59 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:17:03 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:17:14 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./caesar.o   
+Finished building target: caesar
+ 
+13:20:11 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:49:53 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c:13:6: Fehler: In Konflikt stehende Typen für »anacae«
+ void anacae(char* text, int textSize) {
+      ^~~~~~
+In file included from ../anacae.c:8:0:
+../anacae.h:11:6: Anmerkung: Vorherige Deklaration von »anacae« war hier
+ void anacae(char* text);
+      ^~~~~~
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:21:9: Warnung: Variable »b« wird nicht verwendet [-Wunused-variable]
+  int a, b;
+         ^
+../anacae.c:21:6: Warnung: Variable »a« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  int a, b;
+      ^
+../anacae.c:20:7: Warnung: Variable »e« wird nicht verwendet [-Wunused-variable]
+  char e;
+       ^
+make: *** [subdir.mk:26: anacae.o] Fehler 1
+16:50:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:21:9: Warnung: Variable »b« wird nicht verwendet [-Wunused-variable]
+  int a, b;
+         ^
+../anacae.c:21:6: Warnung: Variable »a« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  int a, b;
+      ^
+../anacae.c:20:7: Warnung: Variable »e« wird nicht verwendet [-Wunused-variable]
+  char e;
+       ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:51:02 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:21:9: Warnung: Variable »b« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  int a, b;
+         ^
+../anacae.c:21:6: Warnung: Variable »a« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  int a, b;
+      ^
+../anacae.c:20:7: Warnung: Variable »e« wird nicht verwendet [-Wunused-variable]
+  char e;
+       ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:51:24 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:20:7: Warnung: Variable »e« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  char e;
+       ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:51:29 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+16:54:48 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:32:2: Warnung: Implizite Deklaration der Funktion »caesar« [-Wimplicit-function-declaration]
+  caesar(text, offset);
+  ^~~~~~
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:54:53 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+16:55:54 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:20:19: Fehler: ungültige Initialisierung
+  char decrypt[] = text;
+                   ^~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+16:56:04 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:20:19: Fehler: ungültige Initialisierung
+  char decrypt[] = &text;
+                   ^
+make: *** [subdir.mk:26: Main.o] Fehler 1
+16:56:06 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:20:19: Fehler: ungültige Initialisierung
+  char decrypt[] = &text;
+                   ^
+make: *** [subdir.mk:26: Main.o] Fehler 1
+16:56:23 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:59:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:20:3: Fehler: zu viele Argumente für Funktion »anacae«
+   anacae(text, 7);
+   ^~~~~~
+In file included from ../Main.c:9:0:
+../anacae.h:11:6: Anmerkung: hier deklariert
+ void anacae(char* text);
+      ^~~~~~
+../Main.c:15:6: Warnung: Variable »offset« wird nicht verwendet [-Wunused-variable]
+  int offset = 9;
+      ^~~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+16:59:22 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:20:3: Fehler: zu viele Argumente für Funktion »anacae«
+   anacae(text, 7);
+   ^~~~~~
+In file included from ../Main.c:9:0:
+../anacae.h:11:6: Anmerkung: hier deklariert
+ void anacae(char* text);
+      ^~~~~~
+../Main.c:15:6: Warnung: Variable »offset« wird nicht verwendet [-Wunused-variable]
+  int offset = 9;
+      ^~~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+16:59:34 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:15:6: Warnung: Variable »offset« wird nicht verwendet [-Wunused-variable]
+  int offset = 9;
+      ^~~~~~
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:34:2: Warnung: Implizite Deklaration der Funktion »caesar« [-Wimplicit-function-declaration]
+  caesar(text, offset);
+  ^~~~~~
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+16:59:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:00:09 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:15:2: Fehler: expected »,« or »;« before »int«
+  int offset = 9;
+  ^~~
+../Main.c:17:15: Fehler: »offset« nicht deklariert (erstmalige Verwendung in dieser Funktion); meinten Sie »off_t«?
+  caesar(text, offset);
+               ^~~~~~
+               off_t
+../Main.c:17:15: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+make: *** [subdir.mk:26: Main.o] Fehler 1
+17:00:23 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:00:24 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:00:45 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:01:54 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:02:51 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:34:2: Warnung: Implizite Deklaration der Funktion »caesar« [-Wimplicit-function-declaration]
+  caesar(text, offset);
+  ^~~~~~
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:03:31 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:03:52 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:16:6: Warnung: Variable »offset« wird nicht verwendet [-Wunused-variable]
+  int offset = 9;
+      ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:04:01 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:05:49 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:05:55 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:06:01 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:06:30 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:06:49 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:08:09 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:08:20 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:08:25 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:08:42 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:09:42 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:09:53 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:09:58 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:10:16 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:23:34 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:24:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:24:41 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:25:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:25:48 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 

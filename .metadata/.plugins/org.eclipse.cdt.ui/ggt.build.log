@@ -1,0 +1,6 @@
+12:44:54 **** Incremental Build of configuration Debug for project ggt ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+
+12:44:54 Build Finished (took 87ms)
+

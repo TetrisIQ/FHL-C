@@ -1,0 +1,14 @@
+/*
+ * anacae.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "anacae.h"
+
+
+void anacae(char* text) {
+
+}
+
