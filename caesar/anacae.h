@@ -8,9 +8,7 @@
 #ifndef ANACAE_H_
 #define ANACAE_H_
 
-void anacae(char* text);
-int StringLength(char* text);
-int charRate(char* text, char c, int textSize);
-char findCharacterE(char* text, int textSize);
-
+void anacae(char string[]);
+void findMostUsed(char buffer, char counts[], int often[]);
+int diffE(char letter);
 #endif /* ANACAE_H_ */

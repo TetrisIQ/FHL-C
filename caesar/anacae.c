@@ -7,63 +7,70 @@
 
 #include "anacae.h"
 #include "caesar.h"
-#include <string.h>
 #include <stdio.h>
-#include <ctype.h>
+#include <string.h>
+#define MAX 27
 
-//	101 || 69 ist e
+void anacae(char string[]){
+    int i=0;
+    int highestValue=0;
+    size_t size=strlen(string);
+    char buffer[size];
+    char anzahl[MAX];
+    int often[MAX]={0};
+    int position=0;
+    strcpy(buffer,string);
+    while(buffer[i]!='\0'){
+        if(buffer[i]<97){
+            buffer[i]+=32;
+        }
+        findMostUsed(buffer[i],anzahl,often);
+        i++;
 
-void anacae(char* text) {
-int textSize = StringLength(text);
+    }
+    for(i=0;i<MAX;i++){
+        if(often[i]>highestValue){
+            highestValue=often[i];
+            position=i;
 
-findCharacterE(text, textSize);
+        }
+    }
+    highestValue=diffE(anzahl[position]);
+    caesar(string,highestValue);
 }
 
-char findCharacterE(char* text, int textSize) {
-	int ret = 0;
-	int i;
-	char e, c;
-	int a, b;
-	while (text[i] != '\0') {
-			c = toupper(encrypted[i]);
-			indexInCharCounter = contains(chars, c, charCount);
-			if (indexInCharCounter) {
-				frequency[indexInCharCounter] = frequency[indexInCharCounter] + 1;
-			}
-			else {
-				chars[charCount] = c;
-				frequency[charCount] = 1;
-				charCount++;
-			}
-			i++;
-	}
-		printf("%c ", e);
-	i = 0;
-
-	char offset = 'E' - e;
-	caesar(text, offset);
-
-	return ret;
-
+void findMostUsed(char buffer, char counts[], int often[]){
+    int i=0;
+    while(i<MAX){
+        if(buffer==counts[i]){
+            often[i]+=1;
+            return;
+        }
+        i++;
+    }
+    i=0;
+    while(often[i]!=0){
+        i++;
+    }
+    if(i<MAX){
+    if(buffer!=64){
+        counts[i]=buffer;
+        often[i]+=1;
+    }
+    return;
+    }
 }
 
-int charRate(char* text, char c, int textSize) {
-	int counter = 0;
-	int i;
-		for (i = 0; i <= textSize; i++) {
-			if (text[i] == c) {
-				counter++;
-			}
-		}
-	return counter;
+int diffE(char letter){
+    int i=0;
+    int count=0;
+    for(i=letter;i!=101;i++){
+        if(i==122){
+            i=97;
+            count++;
+        }
+        count++;
+    }
+    return count;
 
 }
-
-int StringLength(char* text) {
-	int i = 0;
-	while (text[i] != '\0') {
-		i++;
-	}
-	return i;
-}
-
