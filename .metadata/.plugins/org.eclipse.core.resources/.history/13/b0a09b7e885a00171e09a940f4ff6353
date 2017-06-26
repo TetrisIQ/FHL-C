@@ -1,0 +1,18 @@
+/*
+ * wortliste.c
+ *
+ *  Created on: 22.06.2017
+ *      Author: alex
+ */
+
+#include "wortliste.h"
+#include <stdlib.h>
+
+
+char* wordlist(File file) {
+
+}
+
+
+
+

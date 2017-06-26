@@ -1,0 +1,45 @@
+/*
+ * anacae.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "anacae.h"
+#include "caesar.h"
+#include <string.h>
+#include <stdio.h>
+#include <ctype.h>
+
+int anacae(char* text) {
+
+}
+
+char findTheE(char* text, int textSize) {
+    int countArray[122]; //122 ist z
+    int i;
+    char copy[textSize];
+    char c;
+    int max = 0;
+    strcpy(copy, text);
+    for (int i = 0; copy[i] != '\0'; i++) {
+        c = toupper(copy[i]);
+        countArray[c]++;
+    }
+    for (i = 97; i <= 122; i++) {
+        if (countArray[i] < max) {
+            max = countArray[i];
+        }
+
+    }
+    return copy[max];
+}
+
+int StringLength(char* text) {
+    int i = 0;
+    while (text[i] != '\0') {
+        i++;
+    }
+    return i;
+}
+

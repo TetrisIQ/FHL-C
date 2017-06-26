@@ -11,4 +11,5 @@
 void anacae(char string[]);
 void findMostUsed(char buffer, char counts[], int often[]);
 int diffE(char letter);
+
 #endif /* ANACAE_H_ */

@@ -967,7 +967,7 @@
 					<entry kind="macro" name="__USER_LABEL_PREFIX__" value="">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170516&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170621&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
@@ -2040,7 +2040,7 @@
 					<entry kind="macro" name="__USER_LABEL_PREFIX__" value="">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170516&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170621&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
@@ -3185,7 +3185,7 @@
 					<entry kind="macro" name="__USER_LABEL_PREFIX__" value="">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170516&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170621&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">
@@ -4258,7 +4258,7 @@
 					<entry kind="macro" name="__USER_LABEL_PREFIX__" value="">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170516&quot;">
+					<entry kind="macro" name="__VERSION__" value="&quot;7.1.1 20170621&quot;">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
 					<entry kind="macro" name="__WCHAR_MAX__" value="0x7fffffff">

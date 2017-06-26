@@ -1,0 +1,26 @@
+/*
+ * anacae.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "anacae.h"
+#include "caesar.h"
+#include <string.h>
+#include <stdio.h>
+#include <ctype.h>
+#define MAX 27
+
+int anacae(char* text) {
+
+}
+
+char findTheE(char* text) {
+    int countArray[26];
+    int i;
+    for (int i = 0; text[i] != '\0'; i++) {
+
+    }
+
+}

@@ -1,0 +1,39 @@
+/*
+ * wortliste.c
+ *
+ *  Created on: 22.06.2017
+ *      Author: alex
+ */
+
+#include "wortliste.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+
+void wordlist(FILE* file) {
+    int i, j;
+    char c;
+    char** text;
+    char* tmp;
+    if (NULL == (text = malloc(sizeof(file)))) {
+        exit(EXIT_FAILURE);
+    }
+
+    if (NULL == (tmp = malloc(sizeof(file)))) {
+        exit(EXIT_FAILURE);
+    }
+
+
+
+
+
+
+       if (c == EOF) { // Dateiende
+           printf("ende");
+       }
+}
+
+
+
+

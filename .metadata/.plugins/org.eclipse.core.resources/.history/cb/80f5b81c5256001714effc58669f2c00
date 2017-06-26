@@ -1,0 +1,66 @@
+/*
+ * anacae.c
+ *
+ *  Created on: 20.06.2017
+ *      Author: alex
+ */
+
+#include "anacae.h"
+#include "caesar.h"
+#include <string.h>
+#include <stdio.h>
+#include <ctype.h>
+
+
+void anacae(char* text) {
+int textSize = StringLength(text);
+
+
+
+char offset = 'E' - (findCharacterE(text, textSize));
+caesar(text, offset);
+
+}
+
+char findCharacterE(char buffer, char counts[], int often[]) {
+    int i=0;
+    while(i<MAX){
+        if(buffer==counts[i]){
+            often[i]+=1;
+            return;
+        }
+        i++;
+    }
+    i=0;
+    while(often[i]!=0){
+        i++;
+    }
+    if(i<MAX){
+    if(buffer!=64){
+        counts[i]=buffer;
+        often[i]+=1;
+    }
+    return;
+    }
+}
+
+int charRate(char* text, char c, int textSize) {
+	int counter = 0;
+	int i;
+		for (i = 0; i <= textSize; i++) {
+			if (text[i] == c) {
+				counter++;
+			}
+		}
+	return counter;
+
+}
+
+int StringLength(char* text) {
+	int i = 0;
+	while (text[i] != '\0') {
+		i++;
+	}
+	return i;
+}
+

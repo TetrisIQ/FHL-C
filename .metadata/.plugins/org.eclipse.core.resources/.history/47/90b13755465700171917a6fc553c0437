@@ -1,0 +1,14 @@
+/*
+ * Main.h
+ *
+ *  Created on: 22.06.2017
+ *      Author: alex
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+class Main {
+};
+
+#endif /* MAIN_H_ */

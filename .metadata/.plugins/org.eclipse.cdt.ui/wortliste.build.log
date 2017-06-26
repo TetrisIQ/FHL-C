@@ -1,0 +1,15 @@
+18:29:43 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+
+18:29:43 Build Finished (took 133ms)
+

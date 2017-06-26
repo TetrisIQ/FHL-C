@@ -956,3 +956,2360 @@ Invoking: GCC C Linker
 gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
 Finished building target: caesar
  
+09:09:01 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:31:8: Fehler: »indexInCharCounter« nicht deklariert (erste Verwendung in dieser Funktion)
+    if (indexInCharCounter) {
+        ^~~~~~~~~~~~~~~~~~
+../anacae.c:31:8: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+../anacae.c:32:5: Fehler: »frequency« nicht deklariert (erstmalige Verwendung in dieser Funktion); meinten Sie »freopen«?
+     frequency[indexInCharCounter] = frequency[indexInCharCounter] + 1;
+     ^~~~~~~~~
+     freopen
+../anacae.c:35:5: Fehler: »chars« nicht deklariert (erstmalige Verwendung in dieser Funktion); meinten Sie »char«?
+     chars[charCount] = c;
+     ^~~~~
+     char
+../anacae.c:35:11: Fehler: »charCount« nicht deklariert (erste Verwendung in dieser Funktion)
+     chars[charCount] = c;
+           ^~~~~~~~~
+../anacae.c:26:12: Warnung: Variable »rate« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  int a, b, rate;
+            ^~~~
+../anacae.c:26:9: Warnung: Variable »b« wird nicht verwendet [-Wunused-variable]
+  int a, b, rate;
+         ^
+../anacae.c:26:6: Warnung: Variable »a« wird nicht verwendet [-Wunused-variable]
+  int a, b, rate;
+      ^
+make: *** [subdir.mk:26: anacae.o] Fehler 1
+09:14:10 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:26:7: Warnung: Variable »ret« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  char ret = 0;
+       ^~~
+../anacae.c:44:3: Warnung: »e« wird in dieser Funktion uninitialisiert verwendet [-Wuninitialized]
+   printf("%c ", e);
+   ^~~~~~~~~~~~~~~~
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:14:49 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:14:54 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+09:14:59 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+09:16:14 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:26:7: Warnung: Variable »ret« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+  char ret = 0;
+       ^~~
+../anacae.c:44:3: Warnung: »e« wird in dieser Funktion uninitialisiert verwendet [-Wuninitialized]
+   printf("%c ", e);
+   ^~~~~~~~~~~~~~~~
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:16:34 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:44:3: Warnung: »e« wird in dieser Funktion uninitialisiert verwendet [-Wuninitialized]
+   printf("%c ", e);
+   ^~~~~~~~~~~~~~~~
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:16:40 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+09:39:42 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findCharacterE«:
+../anacae.c:43:25: Warnung: Implizite Deklaration der Funktion »findMax«; meinten Sie »rindex«? [-Wimplicit-function-declaration]
+             int maxAt = findMax(frequency, charCount);
+                         ^~~~~~~
+                         rindex
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+./anacae.o: In function `findCharacterE':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../anacae.c:43: undefined reference to `findMax'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+09:41:57 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c:14:5: Fehler: In Konflikt stehende Typen für »anacae«
+ int anacae(char* text) {
+     ^~~~~~
+In file included from ../anacae.c:8:0:
+../anacae.h:11:6: Anmerkung: Vorherige Deklaration von »anacae« war hier
+ void anacae(char* text);
+      ^~~~~~
+../anacae.c: In Funktion »anacae«:
+../anacae.c:15:14: Warnung: Implizite Deklaration der Funktion »findEncryptedCharE«; meinten Sie »findCharacterE«? [-Wimplicit-function-declaration]
+     char c = findEncryptedCharE(text);
+              ^~~~~~~~~~~~~~~~~~
+              findCharacterE
+../anacae.c: Auf höchster Ebene:
+../anacae.c:25:6: Fehler: In Konflikt stehende Typen für »findEncryptedCharE«
+ char findEncryptedCharE(char encrypted[]){
+      ^~~~~~~~~~~~~~~~~~
+../anacae.c:15:14: Anmerkung: Vorherige implizite Deklaration von »findEncryptedCharE« war hier
+     char c = findEncryptedCharE(text);
+              ^~~~~~~~~~~~~~~~~~
+../anacae.c: In Funktion »findEncryptedCharE«:
+../anacae.c:46:21: Warnung: Implizite Deklaration der Funktion »findMax«; meinten Sie »rindex«? [-Wimplicit-function-declaration]
+         int maxAt = findMax(frequency, charCount);
+                     ^~~~~~~
+                     rindex
+make: *** [subdir.mk:26: anacae.o] Fehler 1
+09:42:42 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c:14:5: Fehler: In Konflikt stehende Typen für »anacae«
+ int anacae(char* text) {
+     ^~~~~~
+In file included from ../anacae.c:8:0:
+../anacae.h:11:6: Anmerkung: Vorherige Deklaration von »anacae« war hier
+ void anacae(char* text);
+      ^~~~~~
+make: *** [subdir.mk:26: anacae.o] Fehler 1
+09:42:49 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:43:47 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:44:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+09:46:44 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »anacae«:
+../anacae.c:30:9: Warnung: Implizite Deklaration der Funktion »findMostUsed« [-Wimplicit-function-declaration]
+         findMostUsed(buffer[i], anzahl, often);
+         ^~~~~~~~~~~~
+../anacae.c:40:20: Warnung: Implizite Deklaration der Funktion »diffE« [-Wimplicit-function-declaration]
+     highestValue = diffE(anzahl[position]);
+                    ^~~~~
+../anacae.c:41:5: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+     ceasar(text, highestValue);
+     ^~~~~~
+     caesar
+../anacae.c: Auf höchster Ebene:
+../anacae.c:44:6: Warnung: In Konflikt stehende Typen für »findMostUsed«
+ void findMostUsed(char buffer, char counts[], int often[]) {
+      ^~~~~~~~~~~~
+../anacae.c:30:9: Anmerkung: Vorherige implizite Deklaration von »findMostUsed« war hier
+         findMostUsed(buffer[i], anzahl, often);
+         ^~~~~~~~~~~~
+../anacae.c:66:5: Fehler: In Konflikt stehende Typen für »diffE«
+ int diffE(char letter) {
+     ^~~~~
+../anacae.c:66:1: Anmerkung: Ein Argumenttyp mit Standard-Promotion passt nicht zu leerer Parameternamenslistendeklaration
+ int diffE(char letter) {
+ ^~~
+../anacae.c:40:20: Anmerkung: Vorherige implizite Deklaration von »diffE« war hier
+     highestValue = diffE(anzahl[position]);
+                    ^~~~~
+../anacae.c: In Funktion »anacae«:
+../anacae.c:42:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+make: *** [subdir.mk:26: anacae.o] Fehler 1
+09:47:36 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »anacae«:
+../anacae.c:41:5: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+     ceasar(text, highestValue);
+     ^~~~~~
+     caesar
+../anacae.c:42:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+./anacae.o: In function `anacae':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../anacae.c:41: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+09:48:08 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »anacae«:
+../anacae.c:42:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:48:43 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »anacae«:
+../anacae.c:21:20: Fehler: expected »=«, »,«, »;«, »asm« or »__attribute__« before »offsetoffsetoffsetoffset«
+     int often[MAX] offsetoffsetoffsetoffset= {
+                    ^~~~~~~~~~~~~~~~~~~~~~~~
+../anacae.c:21:20: Fehler: »offsetoffsetoffsetoffset« nicht deklariert (erste Verwendung in dieser Funktion)
+../anacae.c:21:20: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+../anacae.c:21:46: Fehler: expected expression before »{« token
+     int often[MAX] offsetoffsetoffsetoffset= {
+                                              ^
+../anacae.c:30:41: Fehler: »often« nicht deklariert (erste Verwendung in dieser Funktion)
+         findMostUsed(buffer[i], anzahl, often);
+                                         ^~~~~
+../anacae.c:42:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+make: *** [subdir.mk:26: anacae.o] Fehler 1
+09:48:50 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »anacae«:
+../anacae.c:42:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:49:15 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:17:41 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findTheE«:
+../anacae.c:33:19: Warnung: Arrayindex hat Typ »char« [-Wchar-subscripts]
+         countArray[c]++;
+                   ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:19:46 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »findTheE«:
+../anacae.c:33:19: Warnung: Arrayindex hat Typ »char« [-Wchar-subscripts]
+         countArray[c]++;
+                   ^
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:20:50 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:20:54 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:21:17 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:23:29 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:22:2: Warnung: Implizite Deklaration der Funktion »anacae« [-Wimplicit-function-declaration]
+  anacae(text);
+  ^~~~~~
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+../anacae.c: In Funktion »rasaec«:
+../anacae.c:39:5: Warnung: Implizite Deklaration der Funktion »ceasar«; meinten Sie »caesar«? [-Wimplicit-function-declaration]
+     ceasar(string,highestValue);
+     ^~~~~~
+     caesar
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:22: undefined reference to `anacae'
+./anacae.o: In function `rasaec':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../anacae.c:39: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+12:23:47 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:22: undefined reference to `anacae'
+./anacae.o: In function `rasaec':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../anacae.c:39: undefined reference to `ceasar'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+12:23:57 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+./Main.o: In function `main':
+/home/alex/Dokumente/FHL-C/caesar/Debug/../Main.c:22: undefined reference to `anacae'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+make: *** [makefile:31: caesar] Fehler 1
+12:24:35 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:24:50 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:27:57 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:28:16 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:28:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:28:58 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:29:11 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:29:18 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:29:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:31:24 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:31:44 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:32:41 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:34:47 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:38:10 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:39:14 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../caesar.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"caesar.d" -MT"caesar.o" -o "caesar.o" "../caesar.c"
+Finished building: ../caesar.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:43:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:32:9: Fehler: Redefinition von »offset«
+     int offset = 9;
+         ^~~~~~
+../Main.c:14:9: Anmerkung: Vorherige Definition von »offset« war hier
+     int offset = 1;
+         ^~~~~~
+../Main.c:16:9: Warnung: Variable »choose« wird nicht verwendet [-Wunused-variable]
+     int choose = 0;
+         ^~~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+12:43:25 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:16:9: Warnung: Variable »choose« wird nicht verwendet [-Wunused-variable]
+     int choose = 0;
+         ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:43:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:16:9: Warnung: Variable »choose« wird nicht verwendet [-Wunused-variable]
+     int choose = 0;
+         ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:43:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:16:9: Warnung: Variable »choose« wird nicht verwendet [-Wunused-variable]
+     int choose = 0;
+         ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:48:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:24:11: Warnung: Übergabe des Arguments 1 von »fgetc« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+     fgetc(buffer, 2, stdin);
+           ^~~~~~
+In file included from ../Main.c:10:0:
+/usr/include/stdio.h:534:12: Anmerkung: »FILE * {alias struct _IO_FILE *}« erwartet, aber Argument hat Typ »char *«
+ extern int fgetc (FILE *__stream);
+            ^~~~~
+../Main.c:24:5: Fehler: zu viele Argumente für Funktion »fgetc«
+     fgetc(buffer, 2, stdin);
+     ^~~~~
+In file included from ../Main.c:10:0:
+/usr/include/stdio.h:534:12: Anmerkung: hier deklariert
+ extern int fgetc (FILE *__stream);
+            ^~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+12:49:03 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:49:10 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+12:49:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:50:17 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:26:5: Warnung: »choose« wird in dieser Funktion uninitialisiert verwendet [-Wuninitialized]
+     switch (choose) {
+     ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:50:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:26:13: Fehler: switch-Größe ist keine Ganzzahl
+     switch (buffer) {
+             ^~~~~~
+../Main.c:17:10: Warnung: Variable »choose« wird nicht verwendet [-Wunused-variable]
+     char choose;
+          ^~~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+12:50:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:17:10: Warnung: Variable »choose« wird nicht verwendet [-Wunused-variable]
+     char choose;
+          ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:52:03 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:52:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:52:42 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+12:53:08 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:53:25 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:53:55 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+09:57:23 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:57:44 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:58:08 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:59:17 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+09:59:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:00:07 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:00:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:15:22: Fehler: »FH« nicht deklariert (erste Verwendung in dieser Funktion)
+     char text[101] = FH Luebeck;
+                      ^~
+../Main.c:15:22: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+../Main.c:15:25: Fehler: expected »,« or »;« before »Luebeck«
+     char text[101] = FH Luebeck;
+                         ^~~~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+10:00:45 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:01:07 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:37:13: Fehler: continue-Anweisung nicht innerhalb einer Schleife
+             continue;
+             ^~~~~~~~
+make: *** [subdir.mk:26: Main.o] Fehler 1
+10:02:46 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:03:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:03:51 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:04:16 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:04:44 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:05:23 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:06:00 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:07:17 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:10:22 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:10:49 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:11:07 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:11:11 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:11:58 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:34:15: Warnung: Übergabe des Arguments 1 von »fgetc« erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+         fgetc(offset);
+               ^~~~~~
+In file included from ../Main.c:10:0:
+/usr/include/stdio.h:534:12: Anmerkung: »FILE * {alias struct _IO_FILE *}« erwartet, aber Argument hat Typ »int«
+ extern int fgetc (FILE *__stream);
+            ^~~~~
+../Main.c:16:10: Warnung: Variable »buffer« wird nicht verwendet [-Wunused-variable]
+     char buffer[2];
+          ^~~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:12:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:34:15: Warnung: Übergabe des Arguments 1 von »fgetc« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+         fgetc(buffer);
+               ^~~~~~
+In file included from ../Main.c:10:0:
+/usr/include/stdio.h:534:12: Anmerkung: »FILE * {alias struct _IO_FILE *}« erwartet, aber Argument hat Typ »char *«
+ extern int fgetc (FILE *__stream);
+            ^~~~~
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:12:35 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:12:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:13:59 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:14:17 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:16:15 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:16:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:18:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:19:11 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:20:45 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:22:26 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:22:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:22:55 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:23:15 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:23:24 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:26:11 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:26:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:27:57 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:51:18: Fehler: Zuweisung an Ausdruck von Arraytyp
+             text =
+                  ^
+make: *** [subdir.mk:26: Main.o] Fehler 1
+10:28:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:51:18: Fehler: Zuweisung an Ausdruck von Arraytyp
+             text =
+                  ^
+make: *** [subdir.mk:26: Main.o] Fehler 1
+10:28:21 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:51:18: Fehler: expected expression before »]« token
+             text[] =
+                  ^
+make: *** [subdir.mk:26: Main.o] Fehler 1
+10:28:52 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:29:02 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:30:02 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+../Main.c: In Funktion »main«:
+../Main.c:56:9: Fehler: expected »;« before »}« token
+         }
+         ^
+make: *** [subdir.mk:26: Main.o] Fehler 1
+10:30:08 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+10:30:12 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:30:15 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:30:24 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+12:06:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+14:23:21 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+14:30:59 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+14:31:58 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+14:32:23 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+14:32:51 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+14:43:20 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+Building file: ../Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.o" -o "Main.o" "../Main.c"
+Finished building: ../Main.c
+ 
+Building file: ../anacae.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"anacae.d" -MT"anacae.o" -o "anacae.o" "../anacae.c"
+Finished building: ../anacae.c
+ 
+Building target: caesar
+Invoking: GCC C Linker
+gcc  -o "caesar"  ./Main.o ./anacae.o ./caesar.o   
+Finished building target: caesar
+ 
+17:10:22 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:10:22 **** Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:16:11: Warnung: Übergabe des Arguments 1 von »fgets« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+     fgets(file, 27000, stdin);
+           ^~~~
+In file included from ../scr/tetrisiq/Main.c:8:0:
+/usr/include/stdio.h:625:14: Anmerkung: »char * restrict« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^~~~~
+../scr/tetrisiq/Main.c:19:18: Warnung: Übergabe des Arguments 1 von »strcspn« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+     file[strcspn(file,"\n")] = 0;
+                  ^~~~
+In file included from ../scr/tetrisiq/Main.c:9:0:
+/usr/include/string.h:280:15: Anmerkung: »const char *« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern size_t strcspn (const char *__s, const char *__reject)
+               ^~~~~~~
+../scr/tetrisiq/Main.c:19:30: Fehler: unverträgliche Typen bei Zuweisung an Typ »FILE {alias struct _IO_FILE}« von Typ »int«
+     file[strcspn(file,"\n")] = 0;
+                              ^
+../scr/tetrisiq/Main.c:21:18: Warnung: Übergabe des Arguments 1 von »fopen« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+     file = fopen(file,"r"); //oeffnen zum Lesen
+                  ^~~~
+In file included from ../scr/tetrisiq/Main.c:8:0:
+/usr/include/stdio.h:275:14: Anmerkung: »const char * restrict« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern FILE *fopen (const char *__restrict __filename,
+              ^~~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:17:50 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:17:50 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:31:1: Fehler: expected expression before »}« token
+ }
+ ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:17:54 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:17:54 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:31:1: Fehler: expected expression before »}« token
+ }
+ ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:18:12 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:18:12 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:31:1: Fehler: expected expression before »}« token
+ }
+ ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:18:47 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:18:47 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:18:51 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:20:16 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:20:49 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:24:18 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:24:18 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:27:10: Fehler: Arraygröße von »distinct« hat Nicht-Ganzzahltyp
+     char distinct[malloc(sizeof(file))];
+          ^~~~~~~~
+../scr/tetrisiq/Main.c:27:10: Warnung: Variable »distinct« wird nicht verwendet [-Wunused-variable]
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:35:47 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:14:10: Fehler: Arraytyp hat unvollständigen Elementtypen »char[]«
+     char text[][];
+          ^~~~
+../scr/tetrisiq/Main.c:14:10: Anmerkung: Deklaration von »text« als multidimensionales Array muss für alle Dimensionen außer der ersten Grenzen haben
+../scr/tetrisiq/Main.c:18:9: Warnung: Variable »b« wird nicht verwendet [-Wunused-variable]
+     int b;      //abbruch int für die 2 schleife
+         ^
+../scr/tetrisiq/Main.c:14:10: Warnung: Variable »text« wird nicht verwendet [-Wunused-variable]
+     char text[][];
+          ^~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:36:12 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:14:10: Fehler: Arraygröße fehlt in »text«
+     char text[][20];
+          ^~~~
+../scr/tetrisiq/Main.c:30:23: Fehler: Zuweisung an Ausdruck von Arraytyp
+     if (NULL == (text = malloc(sizeof(file)))) {
+                       ^
+../scr/tetrisiq/Main.c:14:10: Warnung: Variable »text« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+     char text[][20];
+          ^~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:36:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:36:28 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:36:30 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:36:41 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:37:16 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:29:9: Fehler: break-Anweisung nicht innerhalb einer Schleife oder »switch«
+         break;
+         ^~~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:37:55 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:37:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:38:23 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:38:40 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:39:12 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:39:27 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:39:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:40:05 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:40:09 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:40:16 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:41:11 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:41:25 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:41:51 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:41:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:43:13 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:38:9: Fehler: ungültiger Typ »int« für unäres »*«
+         *text[j][i] = c;
+         ^~~~~~~~~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:43:28 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:43:28 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:38:22: Fehler: ungültiger Typ »int« für unäres »*«
+         text[j][i] = *c;
+                      ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:44:37 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:44:37 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:50:08 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:50:14 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:51:35 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:51:38 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:51:46 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:52:51 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:52:51 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:42:21: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+             text[j] = *tmp;
+                     ^
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:53:06 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:53:06 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:42:21: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+             text[j] = (char) *tmp;
+                     ^
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:54:09 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:54:09 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:39:17: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+         text[i] = c;
+                 ^
+../scr/tetrisiq/Main.c:43:21: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+             text[i] = '\n';
+                     ^
+../scr/tetrisiq/Main.c:36:10: Warnung: Variable »tmp« wird nicht verwendet [-Wunused-variable]
+     char tmp[20];
+          ^~~
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:54:45 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:54:45 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:42:21: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+             text[j] = (*tmp);
+                     ^
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:55:10 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:55:10 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:55:14 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:56:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:56:19 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:56:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:56:33 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:39:19: Fehler: ungültiger Typ »int« für unäres »*«
+         text[i] = *c;
+                   ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:56:41 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:56:41 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:39:20: Fehler: ungültiger Typ »int« für unäres »*«
+         text[i] = (*c);
+                    ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/Main.o] Fehler 1
+17:56:51 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:56:51 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+17:56:53 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:03:36 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:17:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j; //zum zählen in forschleife
+            ^
+../scr/tetrisiq/Main.c:17:9: Warnung: Variable »i« wird nicht verwendet [-Wunused-variable]
+     int i, j; //zum zählen in forschleife
+         ^
+../scr/tetrisiq/Main.c:14:10: Warnung: Variable »c« wird nicht verwendet [-Wunused-variable]
+     char c;
+          ^
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+In file included from ../scr/tetrisiq/wortliste.c:8:0:
+../scr/tetrisiq/wortliste.h:11:15: Fehler: unbekannter Typname: »FILE«
+ void wordlist(FILE* file);
+               ^~~~
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:27:20: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+            text[i] = (c);
+                    ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:03:45 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+In file included from ../scr/tetrisiq/wortliste.c:8:0:
+../scr/tetrisiq/wortliste.h:11:15: Fehler: unbekannter Typname: »FILE«
+ void wordlist(FILE* file);
+               ^~~~
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:27:20: Warnung: Zuweisung erzeugt Zeiger von Ganzzahl ohne Typkonvertierung [-Wint-conversion]
+            text[i] = (c);
+                    ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:03:58 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:03:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+In file included from ../scr/tetrisiq/wortliste.c:8:0:
+../scr/tetrisiq/wortliste.h:11:15: Fehler: unbekannter Typname: »FILE«
+ void wordlist(FILE* file);
+               ^~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:04:03 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:04:03 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+In file included from ../scr/tetrisiq/wortliste.c:8:0:
+../scr/tetrisiq/wortliste.h:11:15: Fehler: unbekannter Typname: »FILE«
+ void wordlist(FILE* file);
+               ^~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:04:06 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+In file included from ../scr/tetrisiq/wortliste.c:8:0:
+../scr/tetrisiq/wortliste.h:11:15: Fehler: unbekannter Typname: »FILE«
+ void wordlist(FILE* file);
+               ^~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:04:33 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:04:33 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:04:36 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:04:45 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:05:03 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:05:06 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:05:20 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:30:12: Warnung: Übergabe des Arguments 1 von »printf« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+     printf(file);
+            ^~~~
+In file included from ../scr/tetrisiq/Main.c:8:0:
+/usr/include/stdio.h:365:12: Anmerkung: »const char * restrict« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern int printf (const char *__restrict __format, ...);
+            ^~~~~~
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:05:45 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:05:45 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:05:49 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+../scr/tetrisiq/Main.c: In Funktion »main«:
+../scr/tetrisiq/Main.c:30:14: Warnung: Format »%f« erwartet Argumenttyp »double«, aber Argument 2 hat Typ »FILE * {alias struct _IO_FILE *}« [-Wformat=]
+     printf("%f ", file);
+             ~^
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:05:53 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:07:54 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/Main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/Main.d" -MT"scr/tetrisiq/Main.o" -o "scr/tetrisiq/Main.o" "../scr/tetrisiq/Main.c"
+Finished building: ../scr/tetrisiq/Main.c
+ 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:15:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+            ^
+../scr/tetrisiq/wortliste.c:28:16: Warnung: »c« könnte in dieser Funktion uninitialisiert verwendet werden [-Wmaybe-uninitialized]
+         tmp[i] = c;
+         ~~~~~~~^~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:08:07 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:28:19: Fehler: ungültiger Typ »int« für unäres »*«
+         tmp[i] = (*c);
+                   ^~
+../scr/tetrisiq/wortliste.c:15:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+            ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:08:24 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:28:19: Fehler: ungültiger Typ »int« für unäres »*«
+         tmp[i] = (*c);
+                   ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:08:34 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:08:34 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:28:16: Warnung: »c« könnte in dieser Funktion uninitialisiert verwendet werden [-Wmaybe-uninitialized]
+         tmp[i] = (c);
+         ~~~~~~~^~~~~
+../scr/tetrisiq/wortliste.c:30:6: Warnung: »j« könnte in dieser Funktion uninitialisiert verwendet werden [-Wmaybe-uninitialized]
+     j++;
+     ~^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:08:46 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:08:57 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:09:12 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:10:09 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:31:6: Warnung: »j« könnte in dieser Funktion uninitialisiert verwendet werden [-Wmaybe-uninitialized]
+     j++;
+     ~^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:10:14 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:10:23 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:12:43 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:16:54 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:16:54 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:18:18: Fehler: ungültige Initialisierung
+     char tmp[] = malloc(sizeof(file));
+                  ^~~~~~
+../scr/tetrisiq/wortliste.c:23:22: Fehler: Zuweisung an Ausdruck von Arraytyp
+     if (NULL == (tmp = malloc(sizeof(file)))) {
+                      ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:17:13 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:18:29 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:33:20: Warnung: Übergabe des Arguments 1 von »strcpy« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+             strcpy(text, tmp);
+                    ^~~~
+In file included from ../scr/tetrisiq/wortliste.c:11:0:
+/usr/include/string.h:126:14: Anmerkung: »char * restrict« erwartet, aber Argument hat Typ »char **«
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:18:52 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:18:52 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:18:54 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:19:40 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:36:20: Warnung: Übergabe des Arguments 1 von »printf« von inkompatiblem Zeigertyp [-Wincompatible-pointer-types]
+             printf(text);
+                    ^~~~
+In file included from ../scr/tetrisiq/wortliste.h:10:0,
+                 from ../scr/tetrisiq/wortliste.c:8:
+/usr/include/stdio.h:365:12: Anmerkung: »const char * restrict« erwartet, aber Argument hat Typ »char **«
+ extern int printf (const char *__restrict __format, ...);
+            ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:20:23 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:23:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:26:36 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:26:36 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:27:14 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:28:26 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:29:25 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:34:23: Fehler: Leere Zeichenkonstante
+                 tmp = '';
+                       ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+18:29:38 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:29:38 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+18:29:40 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:29:40 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:29:43 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 

@@ -1,0 +1,14 @@
+/*
+ * wortliste.h
+ *
+ *  Created on: 22.06.2017
+ *      Author: alex
+ */
+
+#ifndef WORTLISTE_H_
+#define WORTLISTE_H_
+
+class wortliste {
+};
+
+#endif /* WORTLISTE_H_ */
