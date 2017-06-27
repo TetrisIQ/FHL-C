@@ -5,4 +5,4 @@ eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:caesar/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ggt/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ggt/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:wortliste/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:wortliste/activeLaunchMode=run

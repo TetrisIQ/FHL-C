@@ -3313,3 +3313,937 @@ Invoking: GCC C Linker
 gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
 Finished building target: wortliste
  
+08:15:10 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:05:12 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:06:00 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:07:58 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:10:51 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:25: Fehler: Leere Zeichenkonstante
+                tmp[i] = '';
+                         ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:11:04 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:11:04 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:23: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+                tmp[i] = NULL;
+                       ^
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:12:02 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:12:02 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:37:18: Fehler: Arraygröße fehlt in »tmp«
+             char tmp[];
+                  ^~~
+../scr/tetrisiq/wortliste.c:37:18: Warnung: Variable »tmp« wird nicht verwendet [-Wunused-variable]
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:12:16 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:12:16 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:37:19: Warnung: Variable »tmp« wird nicht verwendet [-Wunused-variable]
+             char* tmp;
+                   ^~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:12:35 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:14:14 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:14:14 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:14:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+            ^
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:14:27 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:14:27 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:17:36 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:40:5: Fehler: expected »;« before »}« token
+     }
+     ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:17:48 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:17:54 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:19:35 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:35:9: Fehler: expected »while« before »if«
+         if (strstr(text, tmp) == NULL) {
+         ^~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:19:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:20:11 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:21:00 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:21:52 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:27:11: Fehler: expected »(« before »c«
+     while c != EOF) {
+           ^
+../scr/tetrisiq/wortliste.c:27:11: Warnung: Anweisung ohne Effekt [-Wunused-value]
+../scr/tetrisiq/wortliste.c:27:5: Warnung: diese »while«-Klausel beschützt nicht … [-Wmisleading-indentation]
+     while c != EOF) {
+     ^~~~~
+../scr/tetrisiq/wortliste.c:27:19: Anmerkung: … diese Anweisung, aber letztere ist verwirrend eingerückt, als wäre sie abhängig von »while«
+     while c != EOF) {
+                   ^
+../scr/tetrisiq/wortliste.c:27:19: Fehler: expected statement before »)« token
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:22:00 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:25:08 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:18: Fehler: Ungültige Operanden für binäres + (haben »char *« und »char *«)
+             text += tmp;
+                  ^~
+../scr/tetrisiq/wortliste.c:39:18: Fehler: Ungültige Operanden für binäres + (haben »char *« und »char *«)
+             text += "\n";
+                  ^~ ~~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:25:21 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:19: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+             *text += tmp;
+                   ^~
+../scr/tetrisiq/wortliste.c:39:19: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+             *text += "\n";
+                   ^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:25:34 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:18: Fehler: Ungültige Operanden für binäres + (haben »char *« und »char *«)
+             text += tmp;
+                  ^~
+../scr/tetrisiq/wortliste.c:39:18: Fehler: Ungültige Operanden für binäres + (haben »char *« und »char *«)
+             text += "\n";
+                  ^~ ~~~~
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+10:25:55 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:26:28 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:19: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+             *text += tmp;
+                   ^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:26:36 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:19: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+             *text += (tmp);
+                   ^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:26:52 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:21: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+             *(text) += tmp;
+                     ^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:27:01 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:38:21: Warnung: Zuweisung erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+             (*text) += tmp;
+                     ^~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:31:02 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:14:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+            ^
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:31:05 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:32:01 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:14:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+            ^
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:32:19 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:32:19 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:32:38 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:32:48 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:34:10 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:35:40 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:35:49 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:36:06 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:36:21 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:36:23 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:36:57 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:37:22 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:39:33 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:39:38 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:40:29 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:41:29 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:41:49 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:42:16 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:42:27 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:43:29 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:44:53 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:44:59 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:45:04 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:49:04 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:49:14 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:49:18 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:49:53 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:50:11 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:50:53 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:52:23 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:52:28 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:52:50 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:53:10 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:54:00 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:54:22 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:54:34 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:54:40 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:55:43 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:55:48 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+10:58:33 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+10:59:30 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:39: Fehler: Ungültige Operanden für binäres * (haben »FILE * {alias struct _IO_FILE *}« und »long unsigned int«)
+     if (NULL == (text = malloc((file) * sizeof(file)))) {
+                                       ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+11:00:02 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:37: Fehler: Ungültige Operanden für binäres * (haben »FILE * {alias struct _IO_FILE *}« und »long unsigned int«)
+     if (NULL == (text = malloc(file * (sizeof file))) {
+                                     ^
+../scr/tetrisiq/wortliste.c:63:55: Fehler: expected »)« before »{« token
+     if (NULL == (text = malloc(file * (sizeof file))) {
+                                                       ^
+../scr/tetrisiq/wortliste.c:101:1: Fehler: expected expression before »}« token
+ }
+ ^
+../scr/tetrisiq/wortliste.c:62:11: Warnung: Variable »tmp« wird nicht verwendet [-Wunused-variable]
+     char* tmp;
+           ^~~
+../scr/tetrisiq/wortliste.c:61:11: Warnung: Variable »text« gesetzt, aber nicht verwendet [-Wunused-but-set-variable]
+     char* text;
+           ^~~~
+../scr/tetrisiq/wortliste.c:60:10: Warnung: Variable »c« wird nicht verwendet [-Wunused-variable]
+     char c;
+          ^
+../scr/tetrisiq/wortliste.c:59:12: Warnung: Variable »j« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+            ^
+../scr/tetrisiq/wortliste.c:59:9: Warnung: Variable »i« wird nicht verwendet [-Wunused-variable]
+     int i, j;
+         ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+11:00:20 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:01:32 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:45: Fehler: Ungültige Operanden für binäres * (haben »long unsigned int« und »FILE * {alias struct _IO_FILE *}«)
+     if (NULL == (text = malloc(sizeof(file) * file))) {
+                                             ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+11:01:42 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:02:18 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:37: Fehler: Ungültige Operanden für binäres * (haben »FILE * {alias struct _IO_FILE *}« und »long unsigned int«)
+     if (NULL == (text = malloc(file * sizeof(int)))) {
+                                     ^
+make: *** [scr/tetrisiq/subdir.mk:23: scr/tetrisiq/wortliste.o] Fehler 1
+11:03:07 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:03:18 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:04:32 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:04:44 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+11:05:28 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:63:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:08:35 **** Incremental Build of configuration Debug for project caesar ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+11:08:35 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:10:05 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:24:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+../scr/tetrisiq/wortliste.c:28:31: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (tmp = malloc((file)))) {
+                               ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:10:08 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+11:10:44 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:24:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+../scr/tetrisiq/wortliste.c:28:31: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (tmp = malloc((file)))) {
+                               ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:12:21 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:24:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+../scr/tetrisiq/wortliste.c:28:31: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (tmp = malloc((file)))) {
+                               ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 
+11:15:20 **** Incremental Build of configuration Debug for project wortliste ****
+make all 
+Building file: ../scr/tetrisiq/wortliste.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
+../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
+../scr/tetrisiq/wortliste.c:24:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (text = malloc((file)))) {
+                                ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+../scr/tetrisiq/wortliste.c:28:31: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
+     if (NULL == (tmp = malloc((file)))) {
+                               ^
+In file included from ../scr/tetrisiq/wortliste.c:9:0:
+/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+Finished building: ../scr/tetrisiq/wortliste.c
+ 
+Building target: wortliste
+Invoking: GCC C Linker
+gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
+Finished building target: wortliste
+ 

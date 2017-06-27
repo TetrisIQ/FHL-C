@@ -1227,3 +1227,52 @@ java.io.FileNotFoundException: /home/alex/Dokumente/FHL-C/wortliste/Debug/wortli
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-06-27 08:13:27.288 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-06-27 08:14:49.100
+!MESSAGE Server returned lastModified <= 0 for http://raw.githubusercontent.com/cnfree/eclipse/master/decompiler/update/content.jar
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-06-27 08:15:09.694
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-06-27 08:15:09.696
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2017-06-27 10:02:26.443 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-06-27 10:02:58.690
+!MESSAGE Server returned lastModified <= 0 for http://raw.githubusercontent.com/cnfree/eclipse/master/decompiler/update/content.jar
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-06-27 10:05:11.712
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-06-27 10:05:11.715
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-06-27 10:38:00.948
+!MESSAGE An internal error occurred during: "compute variable details".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.ui.viewmodel.update.AbstractCachingVMProvider.updateNode(AbstractCachingVMProvider.java:1175)
+	at org.eclipse.cdt.dsf.ui.viewmodel.update.AbstractCachingVMProvider.update(AbstractCachingVMProvider.java:1115)
+	at org.eclipse.cdt.dsf.debug.internal.ui.viewmodel.numberformat.detail.NumberFormatDetailPane$DetailJob.run(NumberFormatDetailPane.java:312)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-06-27 11:00:39.113
+!MESSAGE Server returned lastModified <= 0 for http://raw.githubusercontent.com/cnfree/eclipse/master/decompiler/update/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2017-06-27 11:00:40.407
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-06-27 11:00:40.407
+!MESSAGE Error in file:/home/alex/.p2/org.eclipse.equinox.p2.repository/cache/content-1003850517.jar at line 59048, column 62: Missing required attribute in "property": value

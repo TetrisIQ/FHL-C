@@ -1,0 +1,49 @@
+/*
+ * wortliste.c
+ *
+ *  Created on: 22.06.2017
+ *      Author: alex
+ */
+
+#include "wortliste.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+void wordlist(FILE* file) {
+    int i;
+    char c;
+    char* text;
+    char* tmp;
+    if (NULL == (text = malloc(sizeof(file)))) {
+        exit(EXIT_FAILURE);
+    }
+
+    if (NULL == (tmp = malloc(sizeof(file)))) {
+        exit(EXIT_FAILURE);
+    }
+
+//    tmp = "";
+    while (c != EOF) {
+        i = -1;
+        do {
+            i++;
+            c = fgetc(file);
+            tmp[i] = c;
+            if (tmp[i] == ' ') {
+                tmp[i] = '\0';
+            }
+        } while (tmp[i] != '\0');
+        if (strstr(text, tmp) == NULL) {
+            strcpy(text, tmp);
+            strcoll(text, tmp);
+        }
+        i = -1;
+
+    }
+
+    if (c == EOF) { // Dateiende
+        printf("ende");
+    }
+}
+
