@@ -10,6 +10,7 @@
 #include <stdio.h>
 
 void wordlist(FILE* file);
+int countCharInFile(FILE* file);
 
 
 #endif /* WORTLISTE_H_ */

@@ -1,30 +1,6 @@
-11:15:20 **** Incremental Build of configuration Debug for project wortliste ****
+11:32:55 **** Incremental Build of configuration Debug for project wortliste ****
 make all 
-Building file: ../scr/tetrisiq/wortliste.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"scr/tetrisiq/wortliste.d" -MT"scr/tetrisiq/wortliste.o" -o "scr/tetrisiq/wortliste.o" "../scr/tetrisiq/wortliste.c"
-../scr/tetrisiq/wortliste.c: In Funktion »wordlist«:
-../scr/tetrisiq/wortliste.c:24:32: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
-     if (NULL == (text = malloc((file)))) {
-                                ^
-In file included from ../scr/tetrisiq/wortliste.c:9:0:
-/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
- extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
-              ^~~~~~
-../scr/tetrisiq/wortliste.c:28:31: Warnung: Übergabe des Arguments 1 von »malloc«  erzeugt Ganzzahl von Zeiger ohne Typkonvertierung [-Wint-conversion]
-     if (NULL == (tmp = malloc((file)))) {
-                               ^
-In file included from ../scr/tetrisiq/wortliste.c:9:0:
-/usr/include/stdlib.h:443:14: Anmerkung: »size_t {alias long unsigned int}« erwartet, aber Argument hat Typ »FILE * {alias struct _IO_FILE *}«
- extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
-              ^~~~~~
-Finished building: ../scr/tetrisiq/wortliste.c
- 
-Building target: wortliste
-Invoking: GCC C Linker
-gcc  -o "wortliste"  ./scr/tetrisiq/Main.o ./scr/tetrisiq/wortliste.o   
-Finished building target: wortliste
- 
+make: Für das Ziel „all“ ist nichts zu tun.
 
-11:15:20 Build Finished (took 139ms)
+11:32:55 Build Finished (took 82ms)
 

@@ -1,7 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:ggt,org.eclipse.launchbar.core.descriptorType.default\:caesar,org.eclipse.launchbar.core.descriptorType.default\:wortliste
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:ggt,org.eclipse.launchbar.core.descriptorType.default\:caesar,org.eclipse.launchbar.core.descriptorType.default\:wortliste,org.eclipse.launchbar.core.descriptorType.default\:BeispielTest,org.eclipse.launchbar.core.descriptorType.default\:ArrayQueue,org.eclipse.launchbar.core.descriptorType.default\:BeispielTest2
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ArrayQueue/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BeispielTest/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BeispielTest/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:BeispielTest2/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BeispielTest2/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:caesar/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ggt/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:ggt/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

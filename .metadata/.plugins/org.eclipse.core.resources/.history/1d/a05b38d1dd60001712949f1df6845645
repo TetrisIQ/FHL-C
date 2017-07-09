@@ -1,0 +1,82 @@
+/*
+ * ringbuffer.c
+ *
+ *  Created on: 02.07.2017
+ *      Author: alex
+ */
+
+#include "ringbuffer.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct ringbuffer_ {
+    size_t size; // Groesse des Puffers
+    size_t count; // Anzahl der Elmente im Puffer
+    size_t head; // Index des vordersten Elements
+    size_t tail; // Index des hintersten Elements
+    char* data; // Zeiger auf den Puffer
+                // data wird durch malloc auf dem Heap
+                // angelegt.
+} ringbuffer;
+
+ringbuffer queue;
+
+// zum Initialisieren eines Ringbuffers.
+int rbinit(size_t size) {
+    int count = 0;
+    int head = 1;
+    int tail = 0;
+//    char* data = calloc(0, size);
+    char* data = malloc(size);
+    ringbuffer newQueue = {
+    size, count, head, tail, &data
+    };
+    queue = newQueue;
+
+    return 1;
+
+}
+//zum Freigeben des belegten Speicherplatzes
+int rbfree() {
+    free(queue.data);
+    return 1;
+}
+// zum Hinzufügen eines einzelnen Zeichens am Ende.
+int rbput(char e) {
+    if (queue.count == queue.size) {
+        return 0;
+    }
+//    queue.tail = inc(queue.tail, queue.size); //tail wird in inc um 1 erweitert
+    if (++(queue.tail) == queue.size) {
+        queue.tail = 0;
+    }
+    queue.data[(queue.tail)] = e;
+    queue.count++;
+    return 1;
+}
+
+//zum Herausholen und zurückliefern eines Zeichens vom Anfang.
+char rbget() {
+    if (queue.count == 0) {
+        return 0;
+    }
+//    queue.head = inc(queue.head, queue.size);
+    char ret = queue.data[queue.head];
+    if (++(queue.head) == queue.size) {
+        queue.head = 0;
+    }
+
+    queue.count--;
+    return ret;
+}
+
+int rbprint() {
+    int i;
+    char* ret = "";
+    for (i = queue.head; i <= queue.tail; i++) {
+        ret += queue.data[i];
+    }
+    printf(ret);
+
+    return 1;
+}

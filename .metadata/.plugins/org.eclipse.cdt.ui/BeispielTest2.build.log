@@ -1,0 +1,15 @@
+11:37:14 **** Incremental Build of configuration Debug for project BeispielTest2 ****
+make all 
+Building file: ../src/tetrisiq/BeispielTest.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tetrisiq/BeispielTest.d" -MT"src/tetrisiq/BeispielTest.o" -o "src/tetrisiq/BeispielTest.o" "../src/tetrisiq/BeispielTest.c"
+Finished building: ../src/tetrisiq/BeispielTest.c
+ 
+Building target: BeispielTest2
+Invoking: GCC C Linker
+gcc  -o "BeispielTest2"  ./src/tetrisiq/BeispielTest.o   
+Finished building target: BeispielTest2
+ 
+
+11:37:14 Build Finished (took 128ms)
+

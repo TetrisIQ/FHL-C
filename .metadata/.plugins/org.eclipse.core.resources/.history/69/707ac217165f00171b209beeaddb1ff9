@@ -1,0 +1,21 @@
+/*
+ * ringbuffer.h
+ *
+ *  Created on: 02.07.2017
+ *      Author: alex
+ */
+
+#ifndef RINGBUFFER_H_
+#define RINGBUFFER_H_
+
+int rbinit(size_t size);
+//zum Freigeben des belegten Speicherplatzes
+int rbfree();
+
+// zum Hinzufügen eines einzelnen Zeichens am Ende.
+int rbput();
+
+//zum Herausholen und zurückliefern eines Zeichens vom Anfang.
+int rbget();
+
+#endif /* RINGBUFFER_H_ */

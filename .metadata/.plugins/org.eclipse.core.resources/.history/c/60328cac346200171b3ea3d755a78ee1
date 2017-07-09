@@ -1,0 +1,31 @@
+/*
+ * ringbuffer.h
+ *
+ *  Created on: 02.07.2017
+ *      Author: alex
+ */
+
+#include <stdlib.h>
+#ifndef RINGBUFFER_H_
+#define RINGBUFFER_H_
+
+/**
+ * Zum Inizalisiren einer Queue / eines Ringbuffers
+ * @parm size Die Größe der Queue / des Ringbuffers
+ */
+int rbinit(size_t size);
+/**
+ * Zum Freigeben des Speichers der Queue / des Ringbuffers
+ */
+int rbfree();
+
+/**
+ * Zum hinzufügen eines neuen Elementes In die vorhandenen Queue / Ringbuffer
+ * @parm e Das Char Element das eingefügt werden soll
+ */
+int rbput(char e);
+
+//zum Herausholen und zurückliefern eines Zeichens vom Anfang.
+char rbget();
+
+#endif /* RINGBUFFER_H_ */

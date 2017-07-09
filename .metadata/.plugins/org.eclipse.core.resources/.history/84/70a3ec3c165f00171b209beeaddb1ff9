@@ -1,0 +1,16 @@
+/*
+ * Main.c
+ *
+ *  Created on: 02.07.2017
+ *      Author: alex
+ */
+#include "ringbuffer.h"
+
+int main(void) {
+
+    printf(rbinit(10));
+
+
+
+}
+

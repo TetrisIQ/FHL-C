@@ -1,0 +1,19 @@
+/*
+ * Main.c
+ *
+ *  Created on: 02.07.2017
+ *      Author: alex
+ */
+#include "ringbuffer.h"
+#include <stdio.h>
+
+int main(void) {
+
+    rbinit(10);
+    rbput('B');
+    rbput('B');
+    rbput('C');
+    printf("%c", rbget());
+    rbfree();
+}
+
