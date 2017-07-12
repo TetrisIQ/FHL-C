@@ -1,0 +1,16 @@
+15:42:58 **** Incremental Build of configuration Debug for project BeispielTestNochmal ****
+make all 
+Building file: ../Test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Test.d" -MT"Test.o" -o "Test.o" "../Test.c"
+../Test.c:129:9: Fehler: flexibles Arrayelement nicht am Ende von struct
+     int tag[];
+         ^~~
+../Test.c: In Funktion »mkSt«:
+../Test.c:145:27: Fehler: falsche Verwendung eines flexiblen Arrayelements
+     newStation->reiseZiel = reiseZiel;
+                           ^
+make: *** [subdir.mk:20: Test.o] Fehler 1
+
+15:42:59 Build Finished (took 112ms)
+

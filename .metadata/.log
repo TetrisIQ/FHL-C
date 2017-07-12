@@ -2873,3 +2873,46 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.launchbar.core 2 0 2017-07-09 11:18:24.922
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2017-07-11 19:30:53.061 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/alex/Dokumente/FHL-C -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-11 19:31:30.316
+!MESSAGE Indexed 'BeispielTestNochmal' (0 sources, 0 headers) in 0,005 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-07-11 19:45:32.984
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-07-11 19:45:32.986
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-11 19:55:17.398
+!MESSAGE Indexed 'BeispielTest2Nochmal' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-07-11 20:20:37.275
+!MESSAGE Server returned lastModified <= 0 for http://raw.githubusercontent.com/cnfree/eclipse/master/decompiler/update/content.jar
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2017-07-11 20:20:39.423
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-11 20:20:39.423
+!MESSAGE Error in file:/home/alex/.p2/org.eclipse.equinox.p2.repository/cache/content-1003850517.jar at line 59048, column 62: Missing required attribute in "property": value
+!SESSION 2017-07-12 15:34:24.603 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-12 15:35:09.830
+!MESSAGE Indexed 'BeispielTest2zum3ten' (0 sources, 0 headers) in 0,006 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-07-12 15:43:09.457
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-07-12 15:43:09.458
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

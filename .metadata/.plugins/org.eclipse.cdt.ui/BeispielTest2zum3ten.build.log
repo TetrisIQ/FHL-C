@@ -1,0 +1,31 @@
+15:50:00 **** Incremental Build of configuration Debug for project BeispielTest2zum3ten ****
+make all 
+Building file: ../test.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.o" -o "test.o" "../test.c"
+../test.c: In Funktion »avgArray«:
+../test.c:68:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+../test.c: In Funktion »exists«:
+../test.c:85:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+../test.c: In Funktion »capsFile«:
+../test.c:101:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+../test.c: In Funktion »maxList«:
+../test.c:113:1: Warnung: Kontrollfluss erreicht Ende von Nicht-void-Funktion [-Wreturn-type]
+ }
+ ^
+Finished building: ../test.c
+ 
+Building target: BeispielTest2zum3ten
+Invoking: GCC C Linker
+gcc  -o "BeispielTest2zum3ten"  ./test.o   
+Finished building target: BeispielTest2zum3ten
+ 
+
+15:50:00 Build Finished (took 111ms)
+
